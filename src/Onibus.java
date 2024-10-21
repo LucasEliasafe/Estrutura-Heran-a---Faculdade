@@ -6,5 +6,10 @@ public class Onibus extends Transporte {
         this.numeroDeAssentos = numeroDeAssentos;
     }
 
-
+    @Override
+    public void mostrarInformacoes() {
+        super.mostrarInformacoes();
+        System.out.println("Número de Assentos: " + numeroDeAssentos);
+    }
 }
+
