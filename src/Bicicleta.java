@@ -6,5 +6,10 @@ public class Bicicleta extends Transporte {
         this.temCestinha = temCestinha;
     }
 
+    @Override
+    public void mostrarInformacoes() {
+        super.mostrarInformacoes();
+        System.out.println("Possui Cestinha: " + (temCestinha ? "Sim" : "Não"));
+    }
 
 }
